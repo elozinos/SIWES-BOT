@@ -6,9 +6,9 @@ from telegram.ext import CommandHandler, MessageHandler, ContextTypes, Applicati
 from google import genai
 
 # --- CONFIGURATION ---
-TOKEN: Final = "8708075469:AAGe9VNAy8Ugces92dXwNbQCH-yqdPzGIGY"
+TOKEN: Final = ""
 # WARNING: Generate a NEW key in AI Studio and replace this one immediately.
-GEMINI_API_KEY: Final = "AIzaSyBT8L8yeyutAumjzBuWr73ALa5KpfRqSAg"
+GEMINI_API_KEY: Final = ""
 
 # Initialize the Gemini Client
 client = genai.Client(api_key=GEMINI_API_KEY)
